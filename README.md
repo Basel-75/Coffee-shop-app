@@ -1,44 +1,84 @@
-# Shopping App Design & Implementation
+# Coffee shop app ☕️
 
 ## Overview
-In this individual project, you will design and implement a shopping app of your choice using Flutter. This project is an opportunity for you to showcase your creativity and apply various Flutter concepts and widgets to create a unique and engaging user experience. You are required to implement at least **five different UIs** and use the following mandatory concepts:
 
-## Mandatory Requirements
-1. **Drawer Widget**: Create a navigational drawer to manage different sections of your app.
-2. **AlertDialog**: Implement alert dialogs to handle user confirmations or important messages.
-3. **TextFields**: Use TextFields for user input, such as search bars, forms, or login screens.
-4. **Navigation Between Views**: Implement smooth navigation across different views in your app.
-5. **BottomNavigationBar**: Use a BottomNavigationBar to allow users to switch between major sections of your app.
-6. **External Packages**: Utilize at least five external packages to enhance your app's UI.
+### Purpose
+The purpose of this app is to enhance the customer experience at a coffee shop by providing an intuitive and convenient way to browse the menu, place orders.
 
-## Bonus Points
-- **Bottom Sheet**: Implement a bottom sheet to display additional options or information.
-- **TabBarView and TabBar**: Add tabs for organizing content in your app.
-- **PageView**: Create a scrollable view for navigating between pages.
+### Features
+- Menu Browsing: Users can browse a detailed menu with descriptions, prices, and images of various coffee drinks.
 
-## Guidelines
-- This is an **individual project**; each student is expected to work independently.
-- You are encouraged to explore and demonstrate your creativity. Your design and implementation should reflect your unique vision and skills.
+- Order Placement: Customers can place orders directly through the app, selecting their preferred items, customizing their orders.
 
-## Submission Requirements
-- **Screenshots/Videos**: Include clear screenshots or a short video of your project demonstrating its key features and UI.
-- **Documented README File**: Your project should include a README file that clearly describes:
-  - The purpose and features of your app.
-  - The widgets and external packages used.
-  - Instructions for running the app.
-  - Any additional notes or explanations about your design choices.
+- User Profiles: Customers can create and manage profiles
+
+## Widgets & External Packages
+
+### Main Widgets
+- **TextField**: The `TextField` widget is used to allow users to input text.
+
+- **BottomNavigationBar**: The `BottomNavigationBar` is used to navigate between different sections of the app, such as the menu, order history, and profile.
+
+- **BottomSheet**: The `BottomSheet` widget is used to present a sliding panel from the bottom of the screen.
+
+![alt text](assest/readme/sheet.png)
+
+- **Drawer**: The `Drawer` provides an overlay menu that slides in from the side.
+
+![alt text](assest/readme/drawer.png)
+
+- **Alert dialog**: The `AlertDialog` widget is used to display important messages to the user, such as confirming an order.
+
+![alt text](assest/readme/alert.png)
+
+### External Packages
+- **flutter_flip_card**: A widget that does transition between two children in a flipping manner..
+- **flashy_tab_bar2**: Nice animated bottom tab bar.
+- **Icons Plus**: Is a package for Flutter developers that provides a collection of attractive icons from different packs.
+- **google_fonts**: A Flutter package to use fonts from fonts.google.com.
+- **Buttons TabBar**:  Is an open-source Flutter package that provides a tabbar where each tab indicator is a toggle button.
+
+## Instructions for Running the App
+
+### Prerequisites
+- Flutter SDK
+
+### Running the App
+1. Clone the repository: 
+   ```bash
+   git clone https://github.com/Basel-75/Project-4.git
+2. Navigate to the project directory: 
+   ```bash
+   cd Project-4
+
+3. Install dependencies: 
+   ```bash
+   flutter pub get
+
+4. Run the app on an emulator or connected device: 
+   ```bash
+   flutter run
 
 
-## Resources
-- **Widgets Documentation & Examples**: [Material Design Components](https://m3.material.io/components/badges/overview)
-- **External UI Packages**: [Flutter Gems](https://fluttergems.dev/)
-- **Color Palettes**: [Color Hunt](https://colorhunt.co/)
-- **Design Inspiration**: Figma Community, Pinterest, Dribbble, Mobbin
+## Output
 
-## Deadline
-- **Submission Deadline**: 25 August, 9:59 AM
+### Screenshot
 
-## Submission
-Ensure that your project meets all the mandatory requirements. Submit your project files along with a brief documentation describing the features and functionalities you've implemented.
+![alt text](assest/readme/login.png)
+![alt text](assest/readme/signup.png)
+![alt text](assest/readme/home.png)
+![alt text](assest/readme/info.png)
+![alt text](assest/readme/order.png)
+![alt text](assest/readme/profile.png)
 
-Good luck, and have fun creating your shopping app! 🎨📱
+### Demo Video
+
+![assest/readme/demo.mp4](assest/readme/demo.mp4)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For more information, feel free to contact me via basel_1422@outlook.com or visit my GitHub profile @Basel-75.
