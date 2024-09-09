@@ -46,10 +46,10 @@ The purpose of this app is to enhance the customer experience at a coffee shop b
 ### Running the App
 1. Clone the repository: 
    ```bash
-   git clone https://github.com/Basel-75/Project-4.git
+   git clone https://github.com/Basel-75/Coffee-shop-app.git
 2. Navigate to the project directory: 
    ```bash
-   cd Project-4
+   cd Coffee-shop-app
 
 3. Install dependencies: 
    ```bash
