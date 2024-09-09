@@ -71,9 +71,9 @@ The purpose of this app is to enhance the customer experience at a coffee shop b
 ![alt text](assest/readme/order.png)
 ![alt text](assest/readme/profile.png)
 
-### Demo Video
+### Demo
 
-![assest/readme/demo(1).gif](assest/readme/demo(1).gif)
+![assest/readme/demo (1).gif](assest/readme/demo (1).gif)
 
 ## License
 
