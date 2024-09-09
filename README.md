@@ -73,7 +73,7 @@ The purpose of this app is to enhance the customer experience at a coffee shop b
 
 ### Demo
 
-![assest/readme/demo (1).gif](assest/readme/demo (1).gif)
+![assest/readme/demoGif.gif](assest/readme/demoGif.gif)
 
 ## License
 
